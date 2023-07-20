@@ -16,3 +16,10 @@
    - Question answering
 
 1B parameters = 80GB @ 32-bit full precision, 80GB is the maximum memory for the Nvidia A100 GPU
+
+## Fine-tuning LLMs
+Scaling Instruction-Finetuned Language Models  
+
+Model evaluation:
+1. Rouge: text summarization; unigram, bigram, longest common subsequence(LCS)  
+2. Bleu Score: text translation; n-gram
